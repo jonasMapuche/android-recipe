@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">linkAtomic</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Periodic</string>
+    <string name="title_notifications">About</string>
+    <string name="title_about">
+        "\n"
+        "  Author : jonasMapuche\n"
+        "  Version : 1.0\n"
+        "  Copyright : Your copyright notice\n"
+        "  Description : Java, Android\n"
+        "  Question : What is the best computing language for encoding chemical formulas\n"
+        "  Goal : Analyse five computing language (C, Java, PL/pgSQL, Java Script e Dart) to see which best encodes chemical formulas"
+    </string>
+
+</resources>

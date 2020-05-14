@@ -37,10 +37,18 @@ public class MainActivity extends AppCompatActivity {
 
     private String readTxt() {
 
-        //getting the .txt file
-        InputStream inputStream = getResources().openRawResource(R.raw.arquivo);
-
-        return "novo";
+        String result;
+        try {
+            //getting the .txt file
+            InputStream inputStream = getResources().openRawResource(R.raw.arquivo);
+            byte[] b = new byte[inputStream.available()];
+            inputStream.read(b);
+            result = new String(b);
+        } catch (Exception e) {
+            // e.printStackTrace();
+            result = "Error: can't show file.";
+        }
+        return result;
     }
 
 }

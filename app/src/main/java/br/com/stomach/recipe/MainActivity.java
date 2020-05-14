@@ -10,7 +10,12 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import java.io.ByteArrayOutputStream;
+import java.io.InputStream;
+
 public class MainActivity extends AppCompatActivity {
+
+    public static String nome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +30,17 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
+        nome = readTxt();
+
+    }
+
+    private String readTxt() {
+
+        //getting the .txt file
+        InputStream inputStream = getResources().openRawResource(R.raw.arquivo);
+
+        return "novo";
     }
 
 }

@@ -1,0 +1,65 @@
+[
+    {
+        "name": "equation",
+        "type": "ion",
+        "multiplier": 1,
+        "charge": 1,
+        "amount": 1,
+        "role": [
+            {
+                "name": "Na",
+                "type": "default",
+                "multiplier": 1,
+                "valence": 11,
+                "charge": 1,
+                "amount": 1,
+                "fullName": "sódio"
+            }
+        ]
+    },
+    {
+        "name": "equation",
+        "type": "ion",
+        "multiplier": 1,
+        "charge": 1,
+        "amount": 1,
+        "role": [
+            {
+                "name": "Li",
+                "type": "default",
+                "multiplier": 1,
+                "valence": 3,
+                "charge": 1,
+                "amount": 1,
+                "fullName": "lítio"
+            }
+        ]
+    },
+    {
+        "name": "equation",
+        "type": "ion",
+        "multiplier": 1,
+        "charge": -2,
+        "amount": 1,
+        "role": [
+            {
+                "name": "S",
+                "type": "default",
+                "multiplier": 1,
+                "valence": 6,
+                "charge": 0,
+                "amount": 1,
+                "fullName": "enxofre"
+            },
+            {
+                "name": "O",
+                "type": "default",
+                "multiplier": 1,
+                "valence": 8,
+                "charge": -2,
+                "amount": 4,
+                "fullName": "oxigênio"
+            }
+        ]
+    }
+]

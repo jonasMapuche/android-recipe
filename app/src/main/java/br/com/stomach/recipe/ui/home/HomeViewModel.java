@@ -69,7 +69,7 @@ public class HomeViewModel extends ViewModel {
                         jsonReader.beginObject();
                         while (jsonReader.hasNext()) {
                             String key = jsonReader.nextName();
-                            if (key.equals("express")) {
+                            if (key.equals("android")) {
                                 String value = jsonReader.nextString();
                                 variavel[0] = value;
                                 break;
